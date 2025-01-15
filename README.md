@@ -1,6 +1,6 @@
-# Conversor de Moedas Alura One
+# Conversor de Moedas
 
-Este projeto é um conversor de moedas desenvolvido em Java como parte de um desafio de programação. Ele permite converter valores entre várias moedas utilizando taxas de câmbio atualizadas de uma API externa.
+Este projeto é um conversor de moedas desenvolvido em Java. Ele permite converter valores entre o Real e outras moedas utilizando taxas de câmbio atualizadas de uma API externa.
 
 ## 📌 Funcionalidades
 
@@ -43,13 +43,13 @@ O projeto possui a seguinte estrutura de arquivos:
 
 1. **Pré-requisitos**:
    - JDK 11 ou superior.
-   - Configurar o arquivo `CurrencyConverter.java` com a sua chave de API.
+   - Configurar o arquivo `CurrencyConverter.java` com a URL da API.
 
-2. **Configuração da Chave de API**:
-   Substitua `YOUR_API_KEY` no código pelo valor da sua chave API, fornecida pelo [Exchangerate API](https://app.exchangerate-api.com/keys):
+2. **Configuração da URL da API**:
+   A API utilizada é [Exchangerate API](https://api.exchangerate-api.com). Certifique-se de que a URL na constante `API_URL` no código está correta:
 
    ```java
-   private static final String API_URL = "https://v6.exchangerate-api.com/v6/YOUR_API_KEY/latest/";
+   private static final String API_URL = "https://api.exchangerate-api.com/v4/latest/";
    ```
 
 3. **Compilação e Execução**:
@@ -67,7 +67,7 @@ O projeto possui a seguinte estrutura de arquivos:
 Aqui estão algumas sugestões para expandir o projeto:
 
 1. **Histórico de Conversões**:
-   - Armazene as últimas conversões realizadas e permita ao usuário visualizá-las.
+   - Adicione a capacidade de armazenar e visualizar o histórico de conversões realizadas.
 
 2. **Suporte para Mais Moedas**:
    - Expanda a lista de moedas disponíveis para conversão.
@@ -88,7 +88,7 @@ Testes foram realizados para garantir o funcionamento correto do programa. Os se
 
 ## 📜 Licença
 
-Este projeto foi desenvolvido como parte do **Programa ONE (Oracle Next Education)** e está disponível para fins educacionais e experimentais.
+Este projeto foi desenvolvido como parte de um desafio de programação e está disponível para fins educacionais e experimentais.
 
 ---
 

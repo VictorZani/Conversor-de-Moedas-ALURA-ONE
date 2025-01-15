@@ -24,7 +24,7 @@ Este projeto é um conversor de moedas desenvolvido em Java. Ele permite convert
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Java 11**: Linguagem de programação principal.
+- **Java**: Linguagem de programação principal.
 - **HttpClient**: Para realizar requisições HTTP à API de taxas de câmbio.
 - **Gson**: Para manipular o JSON retornado pela API.
 - **Scanner**: Para capturar entradas do usuário via console.

@@ -34,8 +34,7 @@ Este projeto é um conversor de moedas desenvolvido em Java. Ele permite convert
 O projeto possui a seguinte estrutura de arquivos:
 
 ```
-├── src
-│   ├── CurrencyConverter.java  # Arquivo principal do projeto
+├── CurrencyConverter.java  # Arquivo principal do projeto
 └── README.md                    # Documentação do projeto
 ```
 
